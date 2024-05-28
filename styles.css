@@ -1,0 +1,28 @@
+:root {
+  --nz-blue: #012169;
+  --nz-red: #c8102e;
+  --nz-white: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  padding: 1.25rem;
+  background: #012169;
+  color: #ffffff;
+  font-family: Georgia, serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero {
+  margin-bottom: 4rem;
+}
