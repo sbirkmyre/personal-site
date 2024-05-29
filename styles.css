@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Rubik";
+  font-stretch: 0%;
+  font-style: normal;
+  font-weight: 400;
+  src: url("Rubik-VariableFont_wght.ttf") format("truetype");
+}
+
 :root {
   --nz-blue: #012169;
   --nz-red: #c8102e;
@@ -18,11 +26,15 @@ body {
   padding: 1.25rem;
   background: #012169;
   color: #ffffff;
-  font-family: Georgia, serif;
+  font-family: "Rubik", Georgia, serif;
   text-align: center;
   -webkit-font-smoothing: antialiased;
 }
 
 .hero {
+  margin-bottom: 4rem;
+}
+
+.section {
   margin-bottom: 4rem;
 }
